@@ -15,7 +15,7 @@ spec:
        app: python-app
    spec:
      containers:
-       - name: python-app-hello-world
+       - name: python-app-hello-world_pratyush
          image: hello-python:latest
          imagePullPolicy: Always
          ports:
