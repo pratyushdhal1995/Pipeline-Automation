@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: gcr.io/crafty-hall-383007/nginx:GITHUB_SHA
+        image: gcr.io/crafty-hall-383007/python-app:GITHUB_SHA
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
