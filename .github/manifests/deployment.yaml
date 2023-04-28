@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: gcr.io/crafty-hall-383007/python-app:6622ba65afb4688ed8923de1fd5d018850fa8ea1
+        image: gcr.io/crafty-hall-383007/python-app:6622ba65afb4688ed8923de1fd5d018850fa8ea12
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
